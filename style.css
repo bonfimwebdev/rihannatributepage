@@ -1,0 +1,75 @@
+/****** Navbar ******/
+.navbar {
+    background-color:#19110f;
+}
+
+nav ul {
+    justify-content: center;
+}
+
+.navbar a{
+    color: #faeded;
+}
+
+.nav-item:hover{
+    background-color: #291c18;
+}
+
+.nav-item:active{
+    background-color:#402c26;
+}
+
+/****** Configs gerais do corpo ******/
+.item-list {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    box-sizing: border-box;
+    background-color:#f0dada;
+    font-family: "Castoro", "Times New Roman", serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/****** Imagem principal ******/
+#img-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+/****** Títulos e subtítulos ******/
+.subtitle {
+    text-align: center;
+}
+
+/****** Listas ******/
+#music-timeline, #feat-timeline, #awards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.item-list{
+    background-color:#e2caca;
+    list-style-type: none;
+    width: 30vw;
+    height: 35vh;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+Acertar foto e legenda;
+Acertar textos dentro das divs;
+Ajustar padding dentro das divs;
+Ajustar carousel albuns;
+Ajustar botão redirecionar.
+*/
